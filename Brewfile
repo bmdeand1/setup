@@ -1,0 +1,10 @@
+brew "git"
+brew "htop"
+brew "jq"
+brew "pyenv"
+brew "zsh"
+
+cask "docker"
+cask "google-cloud-sdk"
+cask "iterm2"
+cask "visual-studio-code"
