@@ -1,3 +1,5 @@
+configure: configure-docker configure-dotfiles configure-gcp-sdk 
+
 configure-docker:
 	gcloud auth configure-docker
 
@@ -41,4 +43,4 @@ else
 	chsh -s /usr/bin/zsh
 endif
 
-setup: install configure-dotfiles configure-gcp-sdk configure-docker
+setup: install configure
